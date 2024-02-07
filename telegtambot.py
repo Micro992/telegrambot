@@ -4,7 +4,7 @@ from PIL import Image
 from telegram import Bot, Update
 from telegram.ext import ApplicationBuilder, CommandHandler, ContextTypes, MessageHandler, filters
 
-TOKEN = "6926512204:AAGwyYZCwyVHTZ_TXbaVh7-s0Mwu6GaRycY"
+TOKEN = "Your_TOKEN"
 
 
 async def help(update: Update, context: ContextTypes.DEFAULT_TYPE):
