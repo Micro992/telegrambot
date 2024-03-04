@@ -4,7 +4,7 @@ from PIL import Image
 from telegram import Bot, Update
 from telegram.ext import ApplicationBuilder, CommandHandler, ContextTypes, MessageHandler, filters
 
-TOKEN = "YOUR_TOKEN"
+TOKEN = "6926512204:AAGwyYZCwyVHTZ_TXbaVh7-s0Mwu6GaRycY"
 
 async def help(update: Update, context: ContextTypes.DEFAULT_TYPE):
     await context.bot.send_message(chat_id = update.effective_chat.id, text = 'hello please click here /start')
